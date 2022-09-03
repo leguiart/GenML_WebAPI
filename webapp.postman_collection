@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "909ef032-35c6-432b-827e-494fe333dc8a",
+		"name": "SummerSchool2022",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "6420010"
+	},
+	"item": [
+		{
+			"name": "SingleImage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:5000/SingleImage"
+			},
+			"response": []
+		},
+		{
+			"name": "ImageBatch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:5000/ImageBatch/5"
+			},
+			"response": []
+		},
+		{
+			"name": "ImageBatchPOST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "selected_images",
+							"type": "file",
+							"src": [
+								"/C:/Users/luis_/Pictures/color_tanh_1b.jpeg",
+								"/C:/Users/luis_/Pictures/color_tanh_4b.jpeg",
+								"/C:/Users/luis_/Pictures/color_tanh_5b.jpeg"
+							]
+						},
+						{
+							"key": "batch_size",
+							"value": "10",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5000/ImageBatch"
+			},
+			"response": []
+		},
+		{
+			"name": "ImageBatchBrowserPOST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "selected_images",
+							"type": "file",
+							"src": [
+								"/C:/Users/luis_/Pictures/color_tanh_1b.jpeg",
+								"/C:/Users/luis_/Pictures/color_tanh_4b.jpeg",
+								"/C:/Users/luis_/Pictures/color_tanh_5b.jpeg"
+							]
+						},
+						{
+							"key": "batch_size",
+							"value": "10",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5000/ImageBatchBrowser"
+			},
+			"response": []
+		},
+		{
+			"name": "SingleImageBrowser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:5000/SingleImageBrowser"
+			},
+			"response": []
+		},
+		{
+			"name": "ImageBatchBrowser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:5000/ImageBatchBrowser/5"
+			},
+			"response": []
+		}
+	]
+}

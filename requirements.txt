@@ -1,0 +1,9 @@
+numpy==1.20.1
+sympy==1.8
+Flask_Cors==3.0.10
+Flask==1.1.2
+randimage==1.2
+Pillow==9.2.0
+pyzmq==23.2.1
+torch==1.9.1
+pygame==2.1.2
