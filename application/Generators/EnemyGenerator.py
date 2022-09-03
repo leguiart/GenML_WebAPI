@@ -6,7 +6,7 @@ import random
 from PIL import Image
 
 
-sys.path.append("../AI/NCA")# Appending repo's root dir in the python path to enable subsequent imports
+sys.path.append("./AI/NCA")# Appending repo's root dir in the python path to enable subsequent imports
 
 from lib.displayer import displayer
 from lib.utils import mat_distance
